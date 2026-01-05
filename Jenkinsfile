@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {
+        docker { 
+            image 'python:3.9-slim' // This tells Jenkins to run the commands inside a Python container
+            }
+    }
     
     triggers {
         pollSCM 'H/5 * * * *'
