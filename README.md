@@ -1,3 +1,3 @@
-# Kratos, Ghost of Sparta
+# Title
 
-The God of War
+Lorem Ipsum
